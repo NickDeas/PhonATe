@@ -1,0 +1,7 @@
+torch==2.1.1+cu118
+numpy==1.17.4
+transformers==4.24.0
+pandas==0.25.3
+spacy==3.3.3
+nltk==3.4.5
+gdown==5.2.0
