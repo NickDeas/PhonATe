@@ -21,7 +21,7 @@ This repository contains code accompanying the paper [Deas et al., 2024, "PhonAT
   ```
 
 # Applying Phonological Augmentations
-Example code for creating a PhonATe instance and applying augmentations is included in the [Example Notebook](phonate_example.ipynb). A PhonATe instance can be created using a configuration file. A default configuration is included in [`phonate/default_config.json`](phonate/default_config.json) setting all augmentation probabilities to .2.
+Example code for creating a PhonATe instance and applying augmentations for use in evaluating model robustness is included in the [Example Notebook](phonate_example.ipynb). A PhonATe instance can be created using a configuration file. A default configuration is included in [`phonate/default_config.json`](phonate/default_config.json) setting all augmentation probabilities to .2.
 
 Using the default configuration, PhonATe can be constructed with 
 ```
@@ -36,3 +36,17 @@ and then used to augment texts with
 |:------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | Hellloooo? I'm done with this....If I want information I'll just go the source or Encarta.                                                | Hellloooo? I'm done wiff this....If I want infermation I'll jus go deh source or Encarta.                                              | Hellloooo? I'm done wif this....If I want infermation I'll jus go deh source or Encarta.                                               |
 | Or at least review the timing of Moreschi's obscene haste and agree that I had no way of seeing it before he acted.                       | Or at lease review deh taming of Moreskis obscene hast and gree dat I hat no wa of seein it before he acted.                           | Or at least review deh taming of Moreskis obscene hast and agree dat I had no way of seein it before he acted.                         |
+
+# Cite
+If you use PhonATe in your work, please cite the paper:
+```
+@inproceedings{deas-phonate,
+  title={PhonATe: Impact of Type-Written Phonological Features of African American Language on Generative Language Modeling Tasks},
+  author={Deas, Nicholas and Grieser, Jessica A and Hou, Xinmeng and Kleiner, Shana and Martin, Tajh and Nandanampati, Sreya and Patton, Desmond U and McKeown, Kathleen},
+  booktitle={First Conference on Language Modeling},
+  year={2024},
+}
+```
+
+# Contact
+For questions, please email [ndeas@cs.columbia.edu](mailto:ndeas@cs.columbia.edu).
