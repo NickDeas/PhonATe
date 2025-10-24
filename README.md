@@ -1,4 +1,4 @@
-# PhonATe
+# PhonATe (Columbia NLP)
 This repository contains code accompanying the paper [Deas et al., 2024, "PhonATe: Impact of Type-Written Phonological Features of African American Language on Generative Language Modeling Tasks"](https://openreview.net/pdf?id=rXEwxmnGQs) to be presented at the 2024 Conference on Language Modeling.
 
 # Setup
